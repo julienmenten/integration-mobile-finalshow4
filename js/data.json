@@ -1,0 +1,71 @@
+// JSON Document
+// Test object
+{
+	"projects": [
+		{
+			"naam": "The Series Database",
+			"auteur": "Tim Willaert",
+			"studiejaar": "2018-2019",
+			"specialisatie": "Swag",
+			"linkedin": null,
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": null,
+			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+		},
+		{
+			"naam": "Leuk project 1",
+			"auteur": "Britt Leysen",
+			"studiejaar": "2018-2019",
+			"specialisatie": "Design",
+			"linkedin": null,
+			"beschrijving": "Korfbal is leuk maar alcohol is leuker!",
+			"thumbnail": null,
+			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+		},
+		{
+			"naam": "Leuk project 2",
+			"auteur": "Chiel Habils",
+			"studiejaar": "2018-2019",
+			"specialisatie": "mayms",
+			"linkedin": null,
+			"beschrijving": "swag money",
+			"thumbnail": null,
+			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+		},
+		{
+			"naam": "Leuk project 3",
+			"auteur": "Maxime Engels",
+			"studiejaar": "2018-2019",
+			"specialisatie": "Skaten",
+			"linkedin": null,
+			"beschrijving": "He was a skaterboy, she said 'see you later boy'!",
+			"thumbnail": null,
+			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+		},
+		{
+			"naam": "Leuk project 69",
+			"auteur": "Julien Menten",
+			"studiejaar": "2018-2019",
+			"specialisatie": "Staken",
+			"linkedin": null,
+			"beschrijving": "Werken? Ik word daar zo moe van.",
+			"thumbnail": null,
+			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+		}
+	]
+}
+// Object met alle projecten van de studenten
+{
+	"projects": [
+		{	
+			"naam": null,
+			"auteur": null,
+			"studiejaar": null,
+			"specialisatie": null,
+			"linkedin": null,
+			"beschrijving": null,
+			"thumbnail": null,
+			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+		}
+	],
+}
