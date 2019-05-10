@@ -1,4 +1,6 @@
 // JavaScript Document
-$(function () {
-
-});
+$(document).ready(function(){
+	
+	console.log("Linked");
+	
+})
