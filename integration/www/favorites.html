@@ -3,12 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>index.html</title>
+		<title>Favorites page</title>
 		<link rel="stylesheet" href="css/stylesheet.css">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="js/script.js"></script>
-		<script src="js/dragend/dragend.js"></script><!--Bron: http://stereobit.github.io/dragend/ -->
 	</head>
 	<body>
 		<div id="navigationBar">
@@ -101,7 +100,7 @@
 							</svg>
 						</a>
 					</li>
-					<li>
+					<li class="activePage">
 						<a href="favorites.html">
 							<svg version="1.1" id="Capa_3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 viewBox="0 0 55.867 55.867" style="enable-background:new 0 0 55.867 55.867;" xml:space="preserve">
@@ -121,32 +120,5 @@
 			</nav>
 			
 		</div>
-		<div id="pages">
-			<div class="first dragend-page" >
-				<p>Project 1</p>
-				<h1>TEST</h1>
-			</div>
-			<div class="dragend-page" >
-				<p>Project 2</p>
-			</div>
-			<div class="middle dragend-page" >
-				<p>Project 3</p>
-			</div>
-			<div class="dragend-page" >
-				<p>Project 4</p>
-			</div>
-			<div class="last dragend-page">
-				<p>Project 5</p>
-			</div>
-		</div>
 	</body>
-	<script>
-		$(function () {
-			$("#pages").dragend({
-				keyboardNavigation: true,
-				stopPropagation: true,
-				page: "middle",
-			});
-		});
-	</script>
 </html>
