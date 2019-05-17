@@ -3,6 +3,7 @@
 {
 	"projects": [
 		{
+			"project_ID": null,
 			"naam": "The Series Database",
 			"auteur": "Tim Willaert",
 			"studiejaar": "2018-2019",
@@ -10,7 +11,7 @@
 			"linkedin": null,
 			"beschrijving": "Ik ben Tim en ik ben slim!",
 			"thumbnail": null,
-			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+			"projectmap": null, 
 		},
 		{
 			"naam": "Leuk project 1",
@@ -58,6 +59,7 @@
 {
 	"projects": [
 		{	
+			"project_ID": null,
 			"naam": null,
 			"auteur": null,
 			"studiejaar": null,
@@ -65,7 +67,7 @@
 			"linkedin": null,
 			"beschrijving": null,
 			"thumbnail": null,
-			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+			"projectmap": null, /*"/projecten/" + project_ID + "/1.png"*/
 		}
 	],
 }
