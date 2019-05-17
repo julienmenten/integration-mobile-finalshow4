@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>index.html</title>
+		<link rel="stylesheet" href="css/stylesheet.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/dragend/dragend.js"></script><!--Bron: http://stereobit.github.io/dragend/ -->
+	</head>
+	<body>
+		<div id="navigationBar">
+			<nav>
+				<ul>
+					<li><a href="#scannerPage"><svg src="assets/QR.svg" alt=""></a></li>
+					<li><a href="#awardsPage"><svg src="assets/ranking.svg" alt=""></a></li>
+					<li id="homeBtn"><a href="#homePage"><svg src="assets/E_FINAL.svg" alt=""></a></li>
+					<li><a href="#schedulePage"><svg src="assets/Time.svg" alt=""></a></li>
+					<li><a href="#favoritesPage"><svg src="assets/Favorite.svg" alt=""></a></li>
+				</ul>
+			</nav>
+			
+		</div>
+		<div id="pages">
+			<div id="scannerPage" class="first dragend-page" >
+				<p>Scan</p>
+			</div>
+			<div id="awardsPage" class="dragend-page" >
+				<p>Awards</p>
+			</div>
+			<div id="homePage" class="middle dragend-page" >
+				<p>Home</p>
+			</div>
+			<div id="schedulePage" class="dragend-page" >
+				<p>Schedule</p>
+			</div>
+			<div id="favoritesPage" class="last dragend-page">
+				<p>Favorites</p>
+			</div>
+		</div>
+	</body>
+</html>
