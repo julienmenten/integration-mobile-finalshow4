@@ -3,21 +3,28 @@ $(document).ready(function(){
 	console.log('linked');
 	
 	$.ajax({
-		url:'json/projecten.json',
+		url: 'json/projecten.json',
 		method: 'GET',
-		dataType: 'json'
-	}).done(function(data){
-		console.log('json');
-		for(var projecten in data){
-			var projectNaam = data.projects.naam;
-			var auteursNaam = data.projects.auteur;
-			
-			var divOpen= '<div><p>'
-			var divClose = '</p></div>'
-			var br = '<br>'
-			$('a').append(divOpen + projectNaam + br + 	auteursNaam + divClose);
-		}
-	});
+        dataType: 'json'
+	}).done(function(data){;
+        makeList(data.projects);
+    }).fail(function(a,b){
+        console.log(a,b);
+    }).always(function(){
+        console.log('always');
+    })
+    
+    function makeList(list){
+        for(var i in list){
+            var naam = $("<h3>").text(list[i].naam);
+            var auteur = $("<h4>").text(list[i].auteur);
+            
+            var div = $("<div class='card'>");
+            div.append(naam).append(auteur);
+            
+            $("#afbeeldingen").append(div);
+        }
+    }
 	
 	
 	$('#accordion').hide();
@@ -32,27 +39,6 @@ $(document).ready(function(){
 			});
 	
 		});
-		$('#eindwerk').on('click', function(){
-			$('#accordion').hide(300);
-			$.ajax({
-				url:"json/projectn.json",
-				method: "GET",
-				dataType: "json"
-			}).done(function(data){
-				for(var eindwerken in data){
-					var categorie = data.projects.categorie; 
-					var projectName = data.projects.naam;
-					
-					
-				} 
-				
-				if(categorie == "eindwerken"){
-					$().show();
-				}else{
-					$().hide();
-				}
-			});
-		})
 
 	});
 	

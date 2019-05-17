@@ -76,12 +76,31 @@ p{
 }
 
 #afbeeldingen{
-	margin-left: 3%;
-	margin-top: 3%;
+	margin-left: 7.5%;
+	margin-top: 10%;
 }
 
 img{
 	width: 48%;
 	margin-bottom: 1%;
 	display: inline-block;
+}
+
+#afbeeldingen div{
+    width: 40vw;
+    height: 100px;
+    background-color: white;
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+h3{
+    padding-top: 50px;
+}
+
+h3, h4{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
