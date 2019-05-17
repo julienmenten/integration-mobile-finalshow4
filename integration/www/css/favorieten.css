@@ -1,0 +1,21 @@
+/**********************************************
+     Uitlijning van favoriete projecten
+**********************************************/
+
+img#favoProjecten{
+    display: block;
+    width: 90%;
+    margin: 0px 15px 5px 15px;
+}
+
+#favoriteImages{
+    margin-top: 20px;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
+  background-image: url(/Images/dayGradient.png);
+}
