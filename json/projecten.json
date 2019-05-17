@@ -1,0 +1,86 @@
+// JSON Document
+// Test object
+{
+	"projects": [
+		{
+			"project_ID": 01,
+			"naam": "The Series Database",
+			"auteur": "Tim Willaert",
+			"studiejaar": "1 ba Multec",
+			"categorie":"eindwerken",
+			"specialisatie": null,
+			"linkedin": null,
+			"email": null,
+			"telnummer": null,
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": null,
+			"projectmap": null, 
+		},
+		{
+			"project_ID": 02,
+			"naam": "Leuk project 1",
+			"auteur": "Britt Leysen",
+			"studiejaar": "1 ba Multec",
+			"categorie":"eindwerken",
+			"specialisatie": null,
+			"linkedin": null,
+			"beschrijving": "Korfbal is leuk maar alcohol is leuker!",
+			"email": null,
+			"telnummer": null,
+			"thumbnail": null,
+			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+		},
+		{
+			"project_ID": 03,
+			"naam": "Leuk project 2",
+			"auteur": "Chiel Habils",
+			"studiejaar": "1 ba Multec",
+			"categorie":"eindwerken",
+			"specialisatie": null,
+			"linkedin": null,
+			"beschrijving": "swag money",
+			"thumbnail": null,
+			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+		},
+		{
+			"project_ID": 04,
+			"naam": "Leuk project 3",
+			"auteur": "Maxime Engels",
+			"studiejaar": "1 ba Multec",
+			"categorie":"eindwerken",
+			"specialisatie": null,
+			"linkedin": null,
+			"beschrijving": "He was a skaterboy, she said 'see you later boy'!",
+			"thumbnail": null,
+			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+		},
+		{
+			"project_ID": 05,
+			"naam": "Leuk project 69",
+			"auteur": "Julien Menten",
+			"studiejaar": "1 ba Multec",
+			"categorie":"eindwerken",
+			"specialisatie": null,
+			"linkedin": null,
+			"beschrijving": "Werken? Ik word daar zo moe van.",
+			"thumbnail": null,
+			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+		}
+	]
+}
+// Object met alle projecten van de studenten
+{
+	"projects": [
+		{	
+			"project_ID": null,
+			"naam": null,
+			"auteur": null,
+			"studiejaar": null,
+			"specialisatie": null,
+			"linkedin": null,
+			"beschrijving": null,
+			"thumbnail": null,
+			"projectmap": null, /*"/projecten/" + project_ID + "/1.png"*/
+		}
+	],
+}

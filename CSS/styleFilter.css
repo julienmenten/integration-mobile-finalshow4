@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/*lato:300 = light */
+/*lato:400 = regular */
+/*lato:700 = bold */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+
+/*********************
+	   HEADER
+*********************/
+#finalShow{
+	height: 100%;
+	width: 50%;
+}
+
+/*********************
+	  BODY
+*********************/
+body{
+	border: none;
+	padding: none;
+	margin: 0;
+	font-family: lato;
+	background-color: #272724;
+}
+
+/*********************
+	  FIELDSET
+*********************/
+fieldset{
+	display: block;
+	border: none;
+	font-family: lato;
+}
+
+/*********************
+	  	BUTTON
+*********************/
+#accordion{
+	font-family: lato;
+	heightStyle: "content";
+}
+
+#filterButton{
+	height: 4em;
+	margin-top: 20%;
+	margin-right: 5%;
+	margin-left: 90%;
+	color: #DEDEC5;
+}
+
+h1{
+	font-size: 30px;
+	margin: 0;
+	margin-bottom: 1.5%;
+	background-color:#383833;
+	color: #DEDEC5;
+	font-weight: 300;
+	padding: 2% 15%;
+}
+
+p{
+	font-size: 20px;
+	margin-left: 20%;
+	margin-bottom: 1.5%;
+	margin-top: 0;
+	padding: 2%;
+	font-weight: 100;
+	color: #DEDEC5;
+	background-color:#383833;
+}
+
+#firstImg{
+	margin-top: 30%;
+
+}
+
+#afbeeldingen{
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+img{
+	width: 48%;
+	margin-bottom: 1%;
+	display: inline-block;
+}
