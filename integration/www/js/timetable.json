@@ -1,1 +1,34 @@
-// JSON Document
+{
+    "schedule": [
+        
+        {
+            "time": "Mon May 20 2019 10:00:00 GMT+0200 (Central European Summer Time)",
+            "name": "start",
+            "timetonext": "120"
+        },
+        {
+            "time": "Mon May 20 2019 11:40:00:00 GMT+0200 (Central European Summer Time)",
+            "name": "point2",
+            "timetonext": "210"
+        },
+        {
+            "time": "Mon May 20 2019 11:49:0 GMT+0200 (Central European Summer Time)",
+            "name": "point3",
+            "timetonext": "150"
+        },
+        {
+            "time": "Mon May 20 2019 23:00:00 GMT+0200 (Central European Summer Time)",
+            "name": "end",
+            "timetonext": "0"
+        }
+        
+    ],
+        "schedule2":
+        
+        {
+            "startdate": "Mon May 20 2019 15:00:18 GMT+0200 (Central European Summer Time)",
+            "enddate": "Mon May 20 2019 20:50:18 GMT+0200 (Central European Summer Time)"
+        }
+    
+    
+}
