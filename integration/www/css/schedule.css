@@ -1,5 +1,6 @@
 .schedule {
     position: relative;
+    margin-bottom: 50px;
 }
 
 .clearfix::after {
