@@ -2,20 +2,27 @@
      Uitlijning van favoriete projecten
 **********************************************/
 
-img#favoProjecten{
-    display: block;
-    width: 90%;
-    margin: 0px 15px 5px 15px;
-}
-
-#favoriteImages{
-    margin-top: 20px;
+#favoriteImages {
+    margin: 20px 0 50px 0;
 }
 
 .overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  opacity: 0.2;
-  background-image: url(/Images/dayGradient.png);
+    position: relative;
+    width: auto;
+    height: 32vh;
+    margin: 0px 15px 10px 15px;
+    background: linear-gradient(rgba(252, 249, 164, 0.22), rgba(160, 98, 42, 0.22)),
+        url(./../Images/controller.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textOverlay{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: #F2F2D8;
+    background-color: rgba(39,39,36, 0.75);
+    width: 95%;
+    padding: 10px 5px 10px 15px;
 }
