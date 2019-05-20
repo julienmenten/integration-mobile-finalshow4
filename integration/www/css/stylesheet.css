@@ -172,14 +172,14 @@ Stijl voor de homepage
     width: 45%;
     height: 180px;
     display: inline-block;
-    background-color: darkcyan;
+    background-color: #B29249;
     margin-bottom: 8px;
     margin-right: 8px;
 }
 .detailbanner{
     width: 85%;
     height: 150px;
-    background-color: darkcyan;
+    background-color: #B29249;
     margin-left: 7.5%;
     margin-top: 10%;
 }

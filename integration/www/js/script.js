@@ -104,7 +104,7 @@ $(document).ready(function(){
             var klasje = $(this).attr("class").split(" ")[0];
             var cutklasje = klasje.slice(5, klasje.length);
             $(this).hide();
-            $(".ster2"+cutklasje).show();
+            $(".ster2"+cutklasje).fadeToggle("slow").show();
             var grandparent = this.parentNode.parentNode;
             var id = $(grandparent).attr("id");
 
@@ -117,7 +117,7 @@ $(document).ready(function(){
             var klasje = $(this).attr("class").split(" ")[0];
             var cutklasje = klasje.slice(5, klasje.length);
             $(this).hide();
-            $(".ster1"+cutklasje).show();
+            $(".ster1"+cutklasje).fadeIn("slow").show();
             var grandparent = this.parentNode.parentNode;
             var id = $(grandparent).attr("id");
 
