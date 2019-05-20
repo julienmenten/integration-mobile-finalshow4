@@ -1,20 +1,22 @@
 $(document).ready(function(){
 
-    console.log('linked');
     var favBool = [];
+    var jsonProjects;
 
     $.ajax({
         url: 'json/projecten.json',
         method: 'GET',
         dataType: 'json'
-    }).done(function(data){;
-                           makeList(data.projects);
-                           makeDetails(data.projects);
-                          }).fail(function(a,b){
+    }).done(function(data){
+        jsonProjects = data;
+        makeList(data.projects);
+        makeDetails(data.projects);
+    }).fail(function(a,b){
         console.log(a,b);
     }).always(function(){
         console.log('always');
     })
+
 
     function makeList(list){
         for(var i in list){
@@ -59,17 +61,14 @@ $(document).ready(function(){
 
             var divdetail = $("<div class='detailrichting'>");
             divtekst.append(sterfill).append(ster);
-            
+
             if(localStorage.getItem("ster"+i) == null){
-                console.log("false");
                 $(sterfill).hide();
                 $(ster).show();
             } else if(localStorage.getItem("ster"+i) == "true"){
-                console.log("true");
                 $(sterfill).show();
                 $(ster).hide();
             } else if(localStorage.getItem("ster"+i) == "false"){
-                console.log("false");
                 $(sterfill).hide();
                 $(ster).show();
             }
@@ -87,7 +86,9 @@ $(document).ready(function(){
 
         }
 
+        //TOEVOEGEN AAN FAVORIETEN
         $(".starselect").click(function(){
+
             var klasje = $(this).attr("class").split(" ")[0];
             var cutklasje = klasje.slice(5, klasje.length);
             $(this).hide();
@@ -97,16 +98,9 @@ $(document).ready(function(){
 
             favBool[id] = true;
             localStorage.setItem("ster"+id, "true");
-            
-            var gpclone = $(this).parent().parent().clone();
-            var divcopy = $("<div id='divcopy'>");
-            var banner = $(gpclone).find(".detailbanner");
-            var tekst = $(gpclone).find(".detailcard");
-            
-            /*divcopy.append(banner).append(tekst);
-            $("#favorites").html(divcopy);*/
         })
 
+        //VERWIJDEREN VAN FAVORIETEN
         $(".starselect2").click(function(){
             var klasje = $(this).attr("class").split(" ")[0];
             var cutklasje = klasje.slice(5, klasje.length);
@@ -120,7 +114,6 @@ $(document).ready(function(){
         })
 
     }
-
 
     /*$('#accordion').hide();
     $('#filterButton').on('click', function(){
