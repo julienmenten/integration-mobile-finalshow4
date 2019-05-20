@@ -1,6 +1,15 @@
 /**********************************************
      Uitlijning van favoriete projecten
 **********************************************/
+h4 {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 0.9em;
+}
 
 #favoriteImages {
     margin: 20px 0 50px 0;
@@ -17,12 +26,20 @@
     background-size: cover;
 }
 
-.textOverlay{
+.textOverlay {
     position: absolute;
     bottom: 0px;
     left: 0px;
     color: #F2F2D8;
-    background-color: rgba(39,39,36, 0.75);
+    background-color: rgba(39, 39, 36, 0.75);
     width: 95%;
     padding: 10px 5px 10px 15px;
+}
+
+#favoStarStyle {
+    height: 25px;
+    float: right;
+    margin-right: 6%;
+    margin-top: -30px;
+    display: inline-block;
 }
