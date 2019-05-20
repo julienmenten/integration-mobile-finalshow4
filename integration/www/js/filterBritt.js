@@ -1,8 +1,5 @@
 $(document).ready(function(){
-
-	console.log('linked');
-	
-	$.ajax({
+/*	$.ajax({
 		url:'json/projecten.json',
 		method: 'GET',
 		dataType: 'json'
@@ -18,21 +15,22 @@ $(document).ready(function(){
 			$('a').append(divOpen + projectNaam + br + 	auteursNaam + divClose);
 		}
 	});
-	
+	*/
 	
 	$('#accordion').hide();
 	$('#filterButton').on('click', function(){
-		$('#accordion').toggle("slow");
+		$('#accordion').toggle();
 		$( function() {
 			$( '#accordion' ).accordion({
-				heightStyle: "content",
-				selected:false,
-				collapsible: true,
-    			"active": false
+				"heightStyle":"content",
+				"selected":"false",
+				"collapsible":"true",
+    			"active":"false"
 			});
 	
 		});
-		$('#eindwerk').on('click', function(){
+		
+	/*	$('#eindwerk').on('click', function(){
 			$('#accordion').hide(300);
 			$.ajax({
 				url:"json/projectn.json",
@@ -46,16 +44,11 @@ $(document).ready(function(){
 					
 				} 
 				
-				if(categorie == "eindwerken"){
-					$().show();
-				}else{
-					$().hide();
-				}
 			});
 		})
-
+	*/
 	});
-	
+
 	
 		
 });

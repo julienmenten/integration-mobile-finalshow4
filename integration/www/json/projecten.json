@@ -8,12 +8,12 @@
 			"studiejaar": "1 ba Multec",
 			"categorie":"eindwerken",
 			"specialisatie": "specialisatie",
-			"linkedin": "null",
-			"email": "null",
-			"telnummer": "null",
+			"linkedin": "brittleysen",
+			"email": "brittleysen",
+			"telnummer": "0123456789",
 			"beschrijving": "Ik ben Tim en ik ben slim!",
-			"thumbnail": "null",
-			"projectmap": "null"
+			"thumbnail": "000",
+			"projectmap": "000"
 		},
 		{
 			"project_ID": "02",
@@ -22,12 +22,12 @@
 			"studiejaar": "1 ba Multec",
 			"categorie":"eindwerken",
 			"specialisatie": "specialisatie",
-			"linkedin": "null",
-			"beschrijving": "Korfbal is leuk maar alcohol is leuker!",
-			"email": "null",
-			"telnummer": "null",
-			"thumbnail": "null",
-			"projectmap": "null"
+			"linkedin": "brittleysen",
+			"email": "brittleysen",
+			"telnummer": "0123456789",
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": "000",
+			"projectmap": "000"
 		},
 		{
 			"project_ID": "03",
@@ -36,10 +36,12 @@
 			"studiejaar": "1 ba Multec",
 			"categorie":"eindwerken",
 			"specialisatie": "specialisatie",
-			"linkedin": "null",
-			"beschrijving": "swag money",
-			"thumbnail": "null",
-			"projectmap": "null"
+			"linkedin": "brittleysen",
+			"email": "brittleysen",
+			"telnummer": "0123456789",
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": "000",
+			"projectmap": "000"
 		},
 		{
 			"project_ID": "04",
@@ -48,10 +50,12 @@
 			"studiejaar": "1 ba Multec",
 			"categorie":"eindwerken",
 			"specialisatie": "specialisatie",
-			"linkedin": "null",
-			"beschrijving": "He was a skaterboy, she said see you later boy!",
-			"thumbnail": "null",
-			"projectmap": "null"
+			"linkedin": "brittleysen",
+			"email": "brittleysen",
+			"telnummer": "0123456789",
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": "000",
+			"projectmap": "000"
 		},
 		{
 			"project_ID": "05",
@@ -60,10 +64,12 @@
 			"studiejaar": "1 ba Multec",
 			"categorie":"eindwerken",
 			"specialisatie": "specialisatie",
-			"linkedin": "null",
-			"beschrijving": "Werken? Ik word daar zo moe van.",
-			"thumbnail": "null",
-			"projectmap": "null"
+			"linkedin": "brittleysen",
+			"email": "brittleysen",
+			"telnummer": "0123456789",
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": "000",
+			"projectmap": "000"
 		}
         
 	]

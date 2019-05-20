@@ -14,17 +14,6 @@
 }
 
 /*********************
-	  BODY
-*********************/
-body{
-	border: none;
-	padding: none;
-	margin: 0;
-	font-family: lato;
-	background-color: #272724;
-}
-
-/*********************
 	  FIELDSET
 *********************/
 fieldset{
@@ -42,11 +31,16 @@ fieldset{
 }
 
 #filterButton{
-	height: 4em;
-	margin-top: 20%;
-	margin-right: 5%;
-	margin-left: 90%;
+	height: 2em;
+
 	color: #DEDEC5;
+	display: inline-block;
+}
+
+#trechterfilter{
+	display: inline-block;
+	margin-left: 10%;
+	margin-top: 2%;
 }
 
 h1{

@@ -1,4 +1,5 @@
 @import url("qrScanner.css");
+@import url("styleFilter.css");
 /*Julien Menten*/
 /* CSS Variabelen voor de verschillende elementen die vaak voorkomen in de app */
 :root{
@@ -9,6 +10,8 @@
     --paragraphs-color: #DEDEC5;
     --nav-icon-color: #DEDEC5;
     --nav-icon-active-color: #B58851;
+	--search-bar-color: #2C2C23;
+	--search-bar-border-color: #383833;
 }
 * { /* Zuivere breedte hebben van HTML elementen */
     padding: 0;
@@ -47,6 +50,27 @@ h2{
 p{
     color: var(--paragraphs-color);
 }
+
+/**********************************************
+Stijl zoekbalk
+**********************************************/
+#searchBar{
+	background-color: var(--search-bar-color);
+	border-color: var(--search-bar-border-color);
+	border-radius: 30px;
+	height: 30px;
+	width: 100%;
+	margin-left: 5%;
+	margin-top: 2%;
+	display: block;
+}
+
+#searchfilter{
+	width: 75%;
+	display: inline-block;
+}
+
+
 /**********************************************
 Stijl van navigatiebalk
 **********************************************/
