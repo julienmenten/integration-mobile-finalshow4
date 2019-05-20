@@ -86,7 +86,7 @@ nav a{
     line-height: 7vh;	
 }
 nav svg{
-    height: 5vw;
+    height: 7vw;
     max-height: 50px;
     vertical-align: middle;
     fill: var(--nav-icon-color);
