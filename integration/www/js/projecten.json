@@ -1,5 +1,3 @@
-// JSON Document
-// Test object
 {
 	"projects": [
 		{
@@ -26,7 +24,7 @@
 			"email": null,
 			"telnummer": null,
 			"thumbnail": null,
-			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+			"projectmap": null,
 		},
 		{
 			"naam": "Leuk project 2",
@@ -36,7 +34,7 @@
 			"linkedin": null,
 			"beschrijving": "swag money",
 			"thumbnail": null,
-			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+			"projectmap": null, 
 		},
 		{
 			"naam": "Leuk project 3",
@@ -46,7 +44,7 @@
 			"linkedin": null,
 			"beschrijving": "He was a skaterboy, she said 'see you later boy'!",
 			"thumbnail": null,
-			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+			"projectmap": null,
 		},
 		{
 			"naam": "Leuk project 69",
@@ -56,11 +54,11 @@
 			"linkedin": null,
 			"beschrijving": "Werken? Ik word daar zo moe van.",
 			"thumbnail": null,
-			"projectmap": null, /*"/projectnaam/" + "1.png"*/
+			"projectmap": null, 
 		}
 	]
 }
-// Object met alle projecten van de studenten
+
 {
 	"projects": [
 		{	
@@ -70,9 +68,13 @@
 			"studiejaar": null,
 			"specialisatie": null,
 			"linkedin": null,
+			"email": null,
+			"telnummer": null,
 			"beschrijving": null,
-			"thumbnail": null,
-			"projectmap": null, /*"/projecten/" + project_ID + "/1.png"*/
+			"thumbnail": null, 
+			"projectmap": null, 
+			"award_nominated": "test",
+			"award_winner": false, 
 		}
 	],
 }
