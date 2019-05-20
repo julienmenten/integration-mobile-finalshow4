@@ -1,0 +1,100 @@
+.schedule {
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #383833;
+    display: inline-block;
+    float:left;
+}
+
+.circleLine:first-child .circle {
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    background-color: white;
+    border: 4px solid #272724;
+    box-sizing: border-box;
+}
+
+.bar {
+    width: 10px;
+    margin-right: 0;
+    top:12px;
+    background-color: #383833;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.circle:nth-child(n+2) {
+    margin-top: -5px;
+}
+
+
+.gradient {
+    background-color: #383833;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.gradient img {
+    height: 100%;
+    position: absolute;
+    top: 5%;
+    right: -300px;
+    transform: rotate(-60deg);
+}
+
+.circle img {
+    position: absolute;
+    top: 0;
+}
+
+.bardiv {
+    display: inline-block;
+    margin-left: 57.5px;
+    margin-top: 31px;
+}
+
+#bigBlackBar {
+    background-color: #383833;
+}
+
+#bigBlackBalls {
+    position: absolute;
+    top: 26px;
+    left: 50px;
+    width:75%;
+}
+
+.ball_gradient {
+    overflow: hidden;
+}
+
+.timeText{
+    display:inline-block;
+    float:left;
+    margin-left: 25%;
+}
+.nameText{
+    display:inline-block;
+    float:right;
+    margin-right: 10%;
+}
+
+.circleLine{
+    width:100%;
+}
