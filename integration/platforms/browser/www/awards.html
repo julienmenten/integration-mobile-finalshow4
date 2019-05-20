@@ -3,11 +3,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Favorites page</title>
+		<title>Awards</title>
 		<link rel="stylesheet" href="css/stylesheet.css">
+		<link rel="stylesheet" href="css/awards.css">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="js/script.js"></script>
+		<script src="js/awards.js"></script>
 	</head>
 	<body>
 		<div id="navigationBar">
@@ -118,7 +120,138 @@
 					</li>
 				</ul>
 			</nav>
-			
 		</div>
+		<div>
+		    <div>
+                <h1>Final Show</h1>
+                <h2>Awards</h2>
+            </div>
+		</div>
+		<main>
+			<div id="awardsMenu">
+				<div>
+					<button id="openAwardsMenu">
+						<p>Categorieën</p>
+					</button>
+					<ul>
+						<li><button onClick="categorieTonen('all')" id="alleCategorieënBtn">Alle categorieën</button></li>
+						<li><button onClick="categorieTonen('cat1')"  id="cat1Btn">Beste integration</button></li>
+						<li><button onClick="categorieTonen('cat2')" id="cat2Btn">Originaliteitsprijs</button></li>
+						<li><button onClick="categorieTonen('cat3')"  id="cat3Btn">At least you tried award</button></li>
+						<li><button onClick="categorieTonen('cat4')" id="cat4Btn">Mobile UX award</button></li>
+						<li><button onClick="categorieTonen('cat5')"  id="cat5Btn">Web UI award</button></li>
+					</ul>
+				</div>
+			</div>
+			<div id="awardsList">
+				<section id="categorie1">
+					<h2 class="categorieTitel">Categorie 1</h2>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+				</section>
+				<section id="categorie2">
+					<h2 class="categorieTitel">Categorie 2</h2>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+				</section>
+				<section id="categorie3">
+					<h2 class="categorieTitel">Categorie 3</h2>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+				</section>
+				<section id="categorie4">
+					<h2 class="categorieTitel">Categorie 4</h2>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+				</section>
+				<section id="categorie5">
+					<h2 class="categorieTitel">Category 5</h2>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+					<a href="projectpage.html" onClick="" class="overlay">
+						<div  class="textOverlay">
+							<h3>Test Project</h3>
+							<h4>Julien Menten</h4>
+						</div>
+					</a>
+				</section>
+			</div>
+		</main>
+		<footer>
+		</footer>
 	</body>
 </html>

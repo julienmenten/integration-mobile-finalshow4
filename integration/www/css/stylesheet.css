@@ -38,7 +38,6 @@ h2{
     width: auto;
     text-align: center;
     margin-top: 5px;
-    color: white;
     font-weight: 400;
     font-size: 16pt;
     color: #DEDEC5;
@@ -190,4 +189,8 @@ Stijl voor de homepage
 }
 .detailcard h3, .detailcard h4{
     width: auto;
+}
+footer{
+	height: 40px;
+	width: 100%;
 }
