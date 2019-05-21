@@ -4,6 +4,13 @@ $(function(){
 	$("#openAwardsMenu").on('click', function(){
 		$("#awardsMenu ul").slideToggle(200, 'swing');
 	})
+		$.ajax({
+		url: '../json/projecten.json',
+		method: 'GET',
+		dataType: 'json',
+	}).done(function(data){
+		console.log(data);
+	});
 });
 
 function categorieTonen(cat){
@@ -39,5 +46,14 @@ function toggleCategory(categorie){
 		$("#awardsList section").show();
 		$("#awardsMenu ul").slideUp(200);
 	}
-	
+}
+
+function loadProjects(){
+	$.ajax({
+		url: 'json/projecten.json',
+		method: 'GET',
+		dataType: 'json',
+	}).done(function(data){
+		console.log(data);
+	});
 }

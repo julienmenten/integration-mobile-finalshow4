@@ -2,7 +2,7 @@
 	"projects": [
         
 		{
-			"project_ID": "01",
+			"project_ID": "1",
 			"naam": "The Series Database",
 			"auteur": "Tim Willaert",
 			"studiejaar": "1 ba Multec",
@@ -16,7 +16,7 @@
 			"projectmap": "null"
 		},
 		{
-			"project_ID": "02",
+			"project_ID": "2",
 			"naam": "Leuk project 1",
 			"auteur": "Britt Leysen",
 			"studiejaar": "1 ba Multec",
@@ -30,7 +30,7 @@
 			"projectmap": "null"
 		},
 		{
-			"project_ID": "03",
+			"project_ID": "3",
 			"naam": "Leuk project 2",
 			"auteur": "Chiel Habils",
 			"studiejaar": "1 ba Multec",
@@ -42,7 +42,7 @@
 			"projectmap": "null"
 		},
 		{
-			"project_ID": "04",
+			"project_ID": "4",
 			"naam": "Leuk project 3",
 			"auteur": "Maxime Engels",
 			"studiejaar": "1 ba Multec",
@@ -54,7 +54,7 @@
 			"projectmap": "null"
 		},
 		{
-			"project_ID": "05",
+			"project_ID": "5",
 			"naam": "Leuk project 69",
 			"auteur": "Julien Menten",
 			"studiejaar": "1 ba Multec",

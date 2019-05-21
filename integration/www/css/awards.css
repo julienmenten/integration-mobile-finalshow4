@@ -1,33 +1,45 @@
 main{
-	width: 95vw;
+	width: 87vw;
 	margin: auto;
 }
 
-.overlay {
+.projectContainer {
     position: relative;
     width: 100%;
     height: 200px;
-    margin:  0px auto 5px auto;
-    background: linear-gradient(rgba(252, 249, 164, 0.22), rgba(160, 98, 42, 0.22)),
-        url('https://picsum.photos/180/180');
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin:  3px auto 5px auto;
 	display: block;
+	overflow: hidden;
+}
+.projectContainer img{
+	height: 100%;
 }
 
-.textOverlay{
+.projectContainer .textOverlay{
     position: absolute;
     bottom: 0px;
     left: 0px;
     color: #F2F2D8;
     background-color: rgba(39,39,36, 0.75);
-    width: 95%;
+    width: 100%;
     padding: 5px 5px 10px 15px;
 }
+
+.projectContainer .overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(252, 249, 164, 0.22), rgba(160, 98, 42, 0.22));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #openAwardsMenu{
 	background-color: #2e2f2a;
 	display: block;
-	width: 95vw;
+	width: 100%;
 	padding: 10px 0px;
 	margin: 10px auto 0px;
 	font-size: 25px;
