@@ -211,3 +211,23 @@ Stijl voor de homepage
     width: auto;
 }
 
+/**********************************************
+Stijl voor de searchbar
+**********************************************/
+#searchfilter{
+    width: 65%;
+    margin-left: 7.5%;
+    margin-top: 30px;
+}
+input[type=text]{
+    background-color: #383833;
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;
+    background-image: url(../assets/search.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 10px center;
+    color: #DEDEC5;
+    padding-left: 40px;
+}

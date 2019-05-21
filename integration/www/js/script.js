@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    
+
     var screenwidth = window.innerWidth;
     var favBool = [];
     var jsonProjects;
@@ -36,14 +36,14 @@ $(document).ready(function(){
             divtekst.append(naam).append(auteur); div.append(divtekst);
 
             $("#afbeeldingen").append(div);
-            
+
             $("#afbeeldingen div").click(function(){
                 var id = $(this).attr("id");
                 var idnumber = parseInt(id);
                 var id2 = idnumber + 1;
-                
-                var translate = "-"+(screenwidth*id2);
-                
+
+                var translate = ((screenwidth*id2)*-1);
+
                 $("#pages div:first").css("transform", "translateX("+translate+"px)");
             })
         }
@@ -94,8 +94,8 @@ $(document).ready(function(){
             div.append(finalshow).append(projecten).append(foto).append(divtekst).append(divdetail).append(beschrijving);
 
             $("#pages div:first").append(div);
-            
-            
+
+
         }
 
         //TOEVOEGEN AAN FAVORIETEN
