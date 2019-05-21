@@ -3,10 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
         <title>QR-Scanner</title>
         <link rel="stylesheet" href="css/stylesheet.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+=======
+		<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  		xmlns:android="http://schemas.android.com/apk/res/android" id="my-plugin-id" version="1.0.2">
+			
+		<engines>
+  			<engine name="cordova" version=">=1.7.0" />
+  			<engine name="cordova-android" version=">=1.8.0" />
+  			<engine name="cordova-ios" version=">=1.7.1" />
+		</engines>
+			
+        <title>QR-Scanner</title>
+        <link rel="stylesheet" href="css/stylesheet.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<sscript src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script src="js/qrScanner.js"></script>
+>>>>>>> brittleysen
         <script src="js/script.js"></script>
     </head>
     <body>
@@ -122,6 +142,49 @@
         <div>
             <h1>Final Show</h1>
             <h2>QR-Scanner</h2>
+<<<<<<< HEAD
         </div>
+=======
+			<div id="qrScanner">
+				<div data-role="page" id="home">
+    				<div data-role="header">
+        		<!-- <h1>Home</h1> -->
+    				</div>
+	
+    				<div data-role="main" class="ui-content">
+       					 <p>
+           		 			<a href="qrScanner.js:scan();" style="text-decoration: none">
+								<button>Scan</button>
+							</a>
+           		 			<a href="#display" style="text-decoration: none">
+								<button>Display Scanned Data</button
+							</a>
+       		 			</p>
+						<p>Scan hiermee alle projecten</p>
+   		 			</div>
+				</div>
+
+			<div data-role="page" id="display">
+	<!-- When a user clicks on the Display Data button, it switches to the page with the id display. -->
+		
+    			<div data-role="header">
+        			<p>Al gescand</p>
+    			</div>
+
+    			<div data-role="main" class="ui-content">
+       		 		<table data-role="table" data-mode="column" id="allTable" class="ui-responsive table-stroke">
+				 
+        			</table>
+    			</div>
+			</div>
+		</div>
+
+
+	</div>
+		
+		
+
+		
+>>>>>>> brittleysen
     </body>
 </html>

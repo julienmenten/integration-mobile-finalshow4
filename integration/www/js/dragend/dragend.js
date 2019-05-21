@@ -396,7 +396,11 @@
         // ensure swiping with one touch and not pinching
         if ( event.touches && event.touches.length > 1 || event.scale && event.scale !== 1) return;
 
+<<<<<<< HEAD
         event.preventDefault();
+=======
+        //event.preventDefault();
+>>>>>>> brittleysen
         if (this.settings.stopPropagation) {
           event.stopPropagation();
         }

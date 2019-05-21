@@ -1,0 +1,77 @@
+{
+	"projects": [
+        
+		{
+			"project_ID": "01",
+			"naam": "The Series Database",
+			"auteur": "Tim Willaert",
+			"studiejaar": "1 ba Multec",
+			"categorie":"eindwerken",
+			"specialisatie": "specialisatie",
+			"linkedin": "brittleysen",
+			"email": "brittleysen",
+			"telnummer": "0123456789",
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": "000",
+			"projectmap": "000"
+		},
+		{
+			"project_ID": "02",
+			"naam": "Leuk project 1",
+			"auteur": "Britt Leysen",
+			"studiejaar": "1 ba Multec",
+			"categorie":"eindwerken",
+			"specialisatie": "specialisatie",
+			"linkedin": "brittleysen",
+			"email": "brittleysen",
+			"telnummer": "0123456789",
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": "000",
+			"projectmap": "000"
+		},
+		{
+			"project_ID": "03",
+			"naam": "Leuk project 2",
+			"auteur": "Chiel Habils",
+			"studiejaar": "1 ba Multec",
+			"categorie":"eindwerken",
+			"specialisatie": "specialisatie",
+			"linkedin": "brittleysen",
+			"email": "brittleysen",
+			"telnummer": "0123456789",
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": "000",
+			"projectmap": "000"
+		},
+		{
+			"project_ID": "04",
+			"naam": "Leuk project 3",
+			"auteur": "Maxime Engels",
+			"studiejaar": "1 ba Multec",
+			"categorie":"eindwerken",
+			"specialisatie": "specialisatie",
+			"linkedin": "brittleysen",
+			"email": "brittleysen",
+			"telnummer": "0123456789",
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": "000",
+			"projectmap": "000"
+		},
+		{
+			"project_ID": "05",
+			"naam": "Leuk project 69",
+			"auteur": "Julien Menten",
+			"studiejaar": "1 ba Multec",
+			"categorie":"eindwerken",
+			"specialisatie": "specialisatie",
+			"linkedin": "brittleysen",
+			"email": "brittleysen",
+			"telnummer": "0123456789",
+			"beschrijving": "Ik ben Tim en ik ben slim!",
+			"thumbnail": "000",
+			"projectmap": "000"
+		}
+        
+	]
+    
+}
